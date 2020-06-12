@@ -1,0 +1,168 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19.05.2019, 13:42:04
+    Author     : sanhu_000
+*/
+body
+{
+    min-width: 900px;
+    margin:0px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+div
+{   
+    background-color: white;
+}
+#workplace
+{    
+    flex-basis: 520px;
+    width: 55%;
+    min-width: 730px;
+    background-color: black;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: flex-end;
+    bottom: 0.1%;
+}
+#main
+{
+    display:flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+.selection
+{
+    color:white;
+    height: 170px;
+    flex-basis: 230px;
+    flex-wrap: nowrap;
+    background: no-repeat center/100%;
+    background-size: cover;
+    
+}
+#jazz
+{    
+    background-image: url(../pic/jazz.jpg);
+}
+#classic
+{
+    background-image: url(../pic/classic.jpg);
+}
+#rock
+{
+    background-image: url(../pic/rock.jpg);
+}
+#forButtons
+{
+    height: 5%;
+    flex-basis: 65px;
+    display: flex;
+    width: 50%;
+    min-width: 700px;
+    justify-content: space-around;
+}
+button
+{
+    width: 10%;
+    min-width: 140px;
+    background-color: black;
+    color: whitesmoke;
+    border: 0px;
+    font-family: Tahoma;
+    font-size: 14pt;
+    border-radius: 4px;
+}
+#StartNew
+{
+    right: 1%;   
+}
+#toStart
+{
+    left: 1%;    
+}
+footer
+{
+    flex-basis: 165px;
+    background-color: black;    
+    align-self: stretch;
+}
+footer>p
+{
+    font-size: 14pt;
+    color: white;
+    text-align: center;
+}
+.selection:hover
+{
+    border: solid black 1px;
+}
+button:hover
+{
+    border: solid blue 1px;
+}
+#number
+{
+    top:10px;
+    width:700px;
+    flex-basis: 80px;
+    background-color: black;
+    display: none;
+    color: white;
+    font-size: 19pt;
+}
+.answers
+{    
+    flex-basis: 42px;
+    width:700px;
+    background-color: purple;
+    display: none;
+    border-radius: 8px;
+}
+#question
+{
+    width:700px;
+    display:none;
+    flex-basis: 80px;
+    background-color: white;
+    font-size: 17pt;
+}
+#next
+{
+    display: none;
+    width: 90px;
+    flex-basis: 40px;
+    border-radius: 5px;
+    background-color: green;
+    visibility: hidden;
+    color:black;
+}
+.answers:hover
+{
+    border: solid blue 1px;
+}
+.add
+{
+    color:white;
+    font-size: 13pt;
+}
+.text
+{
+    font-size: 15pt;
+    color:white;
+}
+header
+{
+    flex-basis: 150px;
+    width:100%;
+    background: no-repeat center/80%;
+    background-image: url(../pic/banner.png);    
+    background-color: black;
+}

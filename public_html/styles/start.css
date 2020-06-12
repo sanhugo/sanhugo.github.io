@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19.05.2019, 12:20:35
+    Author     : sanhu_000
+*/
+body
+{
+    display:flex;
+    min-height: 900px;
+    min-width: 1000px;
+    margin:0px;
+    flex-flow: column;
+}
+div
+{
+    margin:0px;
+}
+#hat
+{   
+    height: 250px;
+    background: no-repeat center/80%;
+    background-image: url(../pic/banner.png);    
+    background-color: black;
+}
+#in
+{
+    display: flex;
+    position:relative;
+    min-height: 500px;
+    flex-flow: row;    
+    justify-content: space-between;
+}
+#in a
+{   flex:1;
+    flex-basis: 750px;
+    background: no-repeat center/100%;
+    justify-content: center;
+    margin: 0px;
+    text-decoration: none;
+}
+#about
+{
+    height: 20%;
+    min-height: 180px;
+}
+#in #read
+{
+    background-image: url(../pic/read_orig.png);
+}
+#in #test
+{
+    background-image: url(../pic/test.png);
+}
+footer
+{
+    height:20%;
+    min-height: 180px;
+    background-color: black;
+    color: white;
+}
+p
+{
+    align-content: center;
+    margin: 0px;
+    color: white;
+}
+footer>p
+{
+    font-size: 14pt;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+#about p
+{
+    color:black;
+}

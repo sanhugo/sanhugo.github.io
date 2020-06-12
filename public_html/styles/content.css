@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19.05.2019, 22:25:41
+    Author     : sanhu_000
+*/
+body
+{
+    display: flex;
+    flex-flow: column;
+    min-height: 960px;
+    min-width: 900px;
+    margin:0px;
+}
+#forAnother
+{
+    display:flex;
+    flex-flow: row;
+    flex-basis:700px;
+}
+#forSelect
+{
+    flex-basis: 70px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+#show
+{
+    text-align: center;
+    font-size: 20pt;
+    color:black;
+}
+select
+{
+    flex-basis: 200px;
+    font-size: 18pt;
+}
+header
+{
+    color: white;
+    flex-basis: 150px;
+    background: no-repeat center/80%;
+    background-image: url(../pic/banner.png);    
+    background-color: black;
+}
+#text
+{
+    width:80%; 
+    min-width: 800px;
+    display: flex;
+    flex-flow: column;
+}
+aside
+{
+    flex-basis: 250px;
+    background-color: black;
+}
+#date
+{
+    min-height: 100px;
+    background-color: black;
+    width: 180px;
+    margin: 35px;
+    display: flex;
+    flex-flow: column;
+}
+#thisDay
+{
+    font-size: 18pt;
+    color: wheat;
+}
+#addition
+{
+    font-size: 15pt;
+}
+footer
+{    
+    flex-basis: 150px;
+    background-color: black;
+}
+footer>p
+{
+    text-align: center;
+    font-size: 14pt;
+}
+p
+{
+    color:white;
+}
+#toTest
+{
+    text-decoration: none;
+    min-height: 100px;
+    background-color: black;
+    width: 180px;
+    margin: 50px;
+    font-size: 15pt;
+    color:white;
+}
